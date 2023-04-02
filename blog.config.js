@@ -2,7 +2,7 @@
 const BLOG = {
   AUTHOR: 'Me55a', // 作者
   BIO: '喜新不厌旧的好奇鬼', // 作者简介
-  LINK: 'https://www.pandada.blog', // 网站地址
+  LINK: 'https://blog.me55a.com', // 网站地址
   KEYWORDS: 'Notion, 博客, 写作', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
   process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
@@ -49,13 +49,13 @@ const BLOG = {
   CONTACT_TELEGRAM: '',
 
   // 鼠标点击烟花特效
-  FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || true, // 鼠标点击烟花特效
+  FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 鼠标点击烟花特效
 
   // 悬浮挂件
-  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
+  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
   WIDGET_PET_LINK:
     'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
-  WIDGET_PET_SWITCH_THEME: true, // 点击宠物挂件切换博客主题
+  WIDGET_PET_SWITCH_THEME: false, // 点击宠物挂件切换博客主题
 
   // 评论互动 可同时开启多个支持 GISCUS CUSDIS UTTERRANCES GITALK
 
